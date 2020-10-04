@@ -2,17 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*ALUNOS: Izabelly Azevedo Lima - Matrícula 2019201251
-		 Gabriel dos SN Martis - Matrícula 2019200071
-		 Raquel Vieira Cardoso - Matrícula 2019200854
 
-ATIVIDADE I  - QUESTÃO 1
-
-*/
-
-
-int main()
-{
+int main(){
     setlocale(LC_ALL, "Portuguese");
     {
         char nome[90], sexo[90], endereco[90];
@@ -31,10 +22,10 @@ int main()
 	    printf("Informe o seu sexo:");
 	    	scanf("%s",&sexo);
 	   	 
-	    printf("Informe o seu endereço:");
+	    printf("Informe o seu endereÃ§o:");
 	    	scanf("%s",&endereco);
 	
-	    printf("Informe o número da sua residência:");
+	    printf("Informe o nÃºmero da sua residÃªncia:");
 	    	scanf("%d",&casa);
 	    
 	    printf("Digite seu telefone:");
@@ -43,15 +34,15 @@ int main()
 	    printf("informe seu celular:");
 	   	 scanf("%d",&celular);
 
-    printf("\nOlá usuário, se suas informações estão corretas clique em avançar.\n");
-    printf("O seu nome é %s\n",nome,".");
-    printf("O seu cpf é %d\n",cp);
-    printf("A sua idade é %d\n",idade,".");
-    printf("O seu sexo é %s\n",sexo,".");
-    printf("O seu endereço é %s",endereco);
-    printf(",número %d\n",casa, ".");
-    printf("O seu telefone é %d\n",telefone);
-    printf("O seu celular é %d\n",celular);
+    printf("\nOlÃ¡ usuÃ¡rio, se suas informaÃ§Ãµes estÃ£o corretas clique em avanÃ§ar.\n");
+    printf("O seu nome Ã© %s\n",nome,".");
+    printf("O seu cpf Ã© %d\n",cp);
+    printf("A sua idade Ã© %d\n",idade,".");
+    printf("O seu sexo Ã© %s\n",sexo,".");
+    printf("O seu endereÃ§o Ã© %s",endereco);
+    printf(",nÃºmero %d\n",casa, ".");
+    printf("O seu telefone Ã© %d\n",telefone);
+    printf("O seu celular Ã© %d\n",celular);
     }
 	
 }
